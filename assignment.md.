@@ -3,12 +3,12 @@ Git Evaluation Task
 
 1. Repository Setup:
     - Created a Git repository on web and cloned it on the local Machine.
-    - Repo Link: https://github.com/Zain57ul/devops-Task
+    - Repo Link: https://github.com/AhmedYar45/task
 
 2. Feature Development:
     - Created a new branch named feature/add-login
     - using command "git checkout -b feature/add-login"
-    - In the branch, make a code change in the app.js file
+    - In the branch, make a code change in the app.py file
     - Add a comment with your name and a welcome message.
     - Commit the change
     - "git add app.js"
