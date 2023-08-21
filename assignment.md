@@ -1,4 +1,4 @@
-# devops-Task
+# Git Task
 Git Evaluation Task
 
 1. Repository Setup:
@@ -46,13 +46,13 @@ Git Evaluation Task
 
 		#!/bin/bash
 
-		# Replace 'YOUR_WEBHOOK_URL' with the actual Slack webhook URL
+		 Replace 'YOUR_WEBHOOK_URL' with the actual Slack webhook URL
 		Whistleit_URL="YOUR_WEBHOOK_URL"
 
-		# This is an example congratulatory message
+		 This is an example congratulatory message
 		MESSAGE="Congratulations! A new commit has been merged."
 
-		# Post the message to the Slack channel
+		 Post the message to the Slack channel
 		curl -X POST -H "Content-type: application/json" --data "{\"text\":\"$MESSAGE\"}" "$Whistleit_URL"
 6. Webhook Notifications:
     - Now, whenever a commit is made a congratulatory message is delivered to our Whistle.it server
