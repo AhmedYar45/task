@@ -16,19 +16,17 @@ Git Evaluation Task
 
 3. Pre-Commit Hook:
 
-    - Set up a pre-commit hook that enforces coding standards. Create a .pre-commit-config.yaml file in the root of
-      your repository and configure it to run linting or formatting tools
-    - CODE
+    - Set up a pre-commit hook that enforces coding standards. Create a .flake8 and the link-check.py file in the root of
 
-	-   repo: https://github.com/pre-commit/mirrors-eslint
-	    rev: v0.14.1
-	    hooks:
-	    -   id: eslint
-		args: ['--ignore-pattern', 'node_modules']
-	-   repo: https://github.com/pre-commit/mirrors-trailing-whitespace
-	    rev: v3.2.0
-	    hooks:
-	    -   id: trailing-whitespace
+my repository and configure it to run linting or formatting tools
+
+- CODE
+
+- [flake8]
+
+max-line-length = 80
+
+exclude = .git,pycache,venv
 
 
 4. Pull Request:
